@@ -1,0 +1,105 @@
+@media only screen and (max-width: 6000px) {
+   .skipmain{
+       display: none;
+   }
+   body{
+       background-color:lightcyan;
+   }
+   h1.travelhead{
+       text-align: center;
+       font-size:30px;
+       font-weight: bolder;
+       text-transform: uppercase;
+       color:crimson;
+       text-decoration: underline;
+       font-family:fantasy;
+   }
+   main.travel h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    color:rgb(231, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   }
+   main.travel p{
+       width: 90%;
+       border: 3px purple dashed;
+       margin: 5px;
+       font-size: 100%;
+   }
+   main.travel h3{
+       font-size: 15px;
+       font-weight: bold;
+
+   }
+   
+    .top img{
+       display: flex;
+       max-width: 80%;
+       margin-bottom: 2%;
+       flex-direction: column;
+       max-height: auto;
+
+   }
+   
+   ul.topnav{
+
+        background-color:coral; 
+        overflow: hidden;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+       
+   }
+    .a:hover{
+       background-color: yellow;
+       color: red;
+    }
+    .b:hover{
+        background-color: yellow;
+        color: red;
+    }
+    .c:hover{
+        background-color:yellow;
+        color: red;
+    }
+   .a,.b,.c{
+       display: block;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin:100%;
+        
+       
+        border: 2px black solid;
+        margin: auto;
+        font-size: 20px;
+           
+    }
+    .c{
+        background-color: yellow;
+    }
+    .photolist{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); 
+        gap: 5%;
+       border: 3px black solid;
+       margin-bottom: 5%;
+       padding-bottom: 5%;
+    }
+    .photolist im{
+        width: 40%;
+        height: auto;
+    }
+    .photolist figcaption{
+        font-size: 10px;
+        width: auto;
+    }
+    
+   
+}
+
+
