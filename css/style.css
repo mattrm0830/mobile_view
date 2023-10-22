@@ -1,11 +1,11 @@
-@media only screen and (max-width: 7000px) {
+@media only screen and (max-width: 6000px) {
    .skipmain{
        display: none;
    }
    body{
        background-color:lightcyan;
    }
-   h1.travelhead{
+   h1{
        text-align: center;
        font-size:30px;
        font-weight: bolder;
@@ -14,7 +14,7 @@
        text-decoration: underline;
        font-family:fantasy;
    }
-   main.travel h2{
+   main h2{
     font-size: 15px;
     text-transform: capitalize;
     text-decoration: underline;
@@ -23,13 +23,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
    }
-   main.travel p{
+   main p{
        width: 90%;
+       padding: 2%;
        border: 3px purple dashed;
        margin: 5px;
        font-size: 100%;
    }
-   main.travel h3{
+   main h3{
        font-size: 15px;
        font-weight: bold;
 
@@ -58,39 +59,47 @@
    
    
    ul.topnav li{
-       
-        text-align: center;
+        display: block;
         width: 100%;
-        
-        
-        
-       
+        text-align: center;
+
+
         border: 2px black solid;
         margin: auto;
         font-size: 20px;
+       
            
     }
+    
     ul.topnav li:hover{
+       
+        align-items: center;
         background-color:yellow;
         color: red;
     }
-    ul.topnav li .c{ 
+
+    ul.topnav .a,.b,.c{
+        display: block;
        width: 100%;
-       margin: auto;
-       padding-left: 48.2%;
-       padding-right: 48.2%;
-        background-color: yellow;
+
+    }
+    ul.topnav li .c{ 
+        
+        background-color:lightgreen;
         
     }
     .photolist{
+        
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); 
         gap: 5%;
        border: 3px black solid;
+       margin:auto;
        margin-bottom: 5%;
-       padding-bottom: 20%;
+       padding-bottom: 25%;
     }
     .photolist im{
+        padding: 2%;
         width: 40%;
         height: auto;
     }
@@ -98,9 +107,24 @@
         font-size: 10px;
         width: auto;
     }
-    
+    ol.likes{
+        border: 3px red solid;
+        text-align: center;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    ol.likes li{
+        border: 1px darkslategray dashed;
+        margin: 1%;
+        padding: 1%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
    
 }
+
+
+
 
 
 
